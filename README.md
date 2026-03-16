@@ -13,7 +13,7 @@
 [![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://neon.tech/)
 [![FormSpree](https://img.shields.io/badge/Formspree-ED6347?style=for-the-badge&logo=minutemailer&logoColor=white)](https://formspree.io/)
 
-🌐 **[Live Demo → Friendly Dev | Welcome]([https://friendly-dev.vercel.app](https://friendly-dev-ecru.vercel.app/))**
+🌐 **[Live Demo → Friendly Dev | Welcome](https://friendly-dev.vercel.app](https://friendly-dev-ecru.vercel.app/)**
 
 </div>
 
