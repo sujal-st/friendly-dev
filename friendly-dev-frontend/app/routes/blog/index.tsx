@@ -5,6 +5,13 @@ import PostCard from "~/components/PostCard";
 import Pagination from "~/components/Pagination";
 import BlogFilter from "~/components/BlogFilter";
 
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Friendly Dev | Blog" },
+        { name: "description", content: "Portfolio website" },
+    ];
+}
+
 export async function loader({request}:Route.LoaderArgs):Promise<{posts: Post[]}>{
 
   const postRes= await fetch(`${import.meta.env.VITE_API_URL}/posts?populate=media&sort=date:desc`);

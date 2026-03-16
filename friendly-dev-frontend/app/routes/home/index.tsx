@@ -6,7 +6,7 @@ import type { Post } from "~/types";
 
 export function meta({ }: Route.MetaArgs) {
     return [
-        { title: "Portfolio | Welcome" },
+        { title: "Friendly Dev | Welcome" },
         { name: "description", content: "Portfolio website" },
     ];
 }

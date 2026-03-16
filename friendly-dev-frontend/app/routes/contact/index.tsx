@@ -1,6 +1,12 @@
 import React from 'react'
 import type { Route } from './+types'
 
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Friendly Dev | Contact" },
+        { name: "description", content: "Portfolio website" },
+    ];
+}
 
 // export async function action({request}:Route.ActionArgs){
 //     const formData = await request.formData();

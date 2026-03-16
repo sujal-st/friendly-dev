@@ -1,3 +1,11 @@
+import type { Route } from "./+types";
+
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Friendly Dev | About" },
+        { name: "description", content: "Portfolio website" },
+    ];
+}
 
 function AboutPage() {
   return (

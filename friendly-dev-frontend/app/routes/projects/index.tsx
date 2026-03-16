@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "Portfolio | Projects" },
+    { title: "Friendly Dev | Projects" },
     { name: "description", content: "My website project" },
   ];
 }
